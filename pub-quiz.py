@@ -25,6 +25,7 @@ quiz_questions = [
     },
 ]
 
+correct_answers = 0
 # Loop through each question
 for question in quiz_questions:
     # Display the question and options
@@ -38,8 +39,11 @@ for question in quiz_questions:
     # Check if the answer is correct
     if user_answer == question["answer"]:
         print("Correct!")
+        correct_answers += 1
     else:
         print(f"Wrong! The correct answer was {question['answer']}.")
+
+print(f"You got {correct_answers} out of {len(quiz_questions)} questions correct.")
 
 # Goodbye message
 print("Thanks for playing the Pub Quiz!")
