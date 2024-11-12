@@ -9,11 +9,20 @@ quiz_questions = [
         "answer": "B"
     },
     {
-        "question": "What is 2 + 2?",
-        "options": ["A) 3", "B) 4", "C) 5", "D) 22"],
+        "question": "What is 12 X 12?",
+        "options": ["A) 133", "B) 144", "C) 155", "D) 122"],
         "answer": "B"
     },
-    # Learners can add more questions here following the same structure
+    {
+        "question": "What is the name of the tallest mountain in the world?",
+        "options": ["A) Everest", "B) Mount Kilimanjaro", "C) K2", "D) Ben Nevis"],
+        "answer": "A"
+    },
+    {
+        "question": "How many wives did Henry VIII have?",
+        "options": ["A) 4", "B) 1", "C) 6", "D) 12"],
+        "answer": "C"
+    },
 ]
 
 # Loop through each question
